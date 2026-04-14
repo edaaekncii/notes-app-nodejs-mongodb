@@ -1,42 +1,43 @@
-# Notes-NodeJs-CRUD-MongoDB
+# 📝 Notes App (Node.js & MongoDB)
 
-## Udates
-[x] Fixed Mongoose Notes Query Issue 7.0.0
+A simple CRUD notes application built with Node.js, Express.js and MongoDB.
 
-## You need:
-- Database (MongoDB)
-- Google Console Account to create the API Auth Key's
+---
 
-## Create .env file
-Create a .env file to store your credentials. Example below:
+## 🚀 Features
+- Create notes
+- Read existing notes
+- Update notes
+- Delete notes
+- Basic CRUD operations
+- Server-side rendered structure
 
-```
-MONGODB_URI = mongodb+srv://<username>:<password>@mongodburlhere
-GOOGLE_CLIENT_ID= YOUR_GOOGLE_ID_HERE
-GOOGLE_CLIENT_SECRET= YOUR_GOOGLE_CLIENT_SECRET_HERE
-GOOGLE_CALLBACK_URL=http://localhost:5000/google/callback
-```
+---
 
-## Installation
-To install and run this project - install dependencies using npm and then start your server:
+## 🛠️ Technologies Used
+- Node.js
+- Express.js
+- MongoDB
+- EJS
+- CSS
 
-```
-$ npm install
-$ npm start
-```
+---
 
-### YouTube Video & Article
+## 🎯 Purpose
+This project was developed during my university years to improve my backend development skills and gain hands-on experience with CRUD operations, routing structure, and database integration.
 
-[YouTube Video](https://youtu.be/)
+---
 
-[Read Article](https://raddy.dev/blog/)
+## ⚙️ Installation
 
-### YouTube Channel - Raddy
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/edaaekncii/notes-app-nodejs-mongodb.git
 
-[Subscribe to my YouTube Channel](https://www.youtube.com/channel/UCvXscyQ0cLzPZeNOeXI45Sw?sub_confirmation=1)
 
-### Website
-[www.raddy.dev](https://www.raddy.dev)
 
-### Donations
-[Buy me a Coffee](https://www.buymeacoffee.com/RaddyTheBrand)
+
+
+Navigate to the project folder:  cd notes-app-nodejs-mongodb
+Install dependencies:  npm install
+Run the application:  npm start 
